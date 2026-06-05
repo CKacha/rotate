@@ -26,7 +26,7 @@ const light = new THREE.PointLight(0xffffff, 2);
 light.position.set(5, 5, 5);
 scene.add(light);
 
-const audio = new Audio('/public/o.mp3');
+const audio = new Audio('./o.mp3');
 audio.loop = true;
 
 const objects = [];
@@ -47,9 +47,9 @@ function createObject(geometry, x, y, z) {
 
 createObject(new THREE.BoxGeometry(1.5, 1.5, 1.5), -4, 1, 0);
 createObject(new THREE.ConeGeometry(1, 1.8, 3), -1.5, -1, 0);
-createObject(new THREE.OctahedronGeometry(1.2), 1.5, 1, 0); 
-createObject(new THREE.TorusGeometry(0.9, 0.3, 16, 100), 4, -1, 0); 
-createObject(new THREE.IcosahedronGeometry(1.1), 0, 2.5, -2); 
+createObject(new THREE.OctahedronGeometry(1.2), 1.5, 1, 0);
+createObject(new THREE.TorusGeometry(0.9, 0.3, 16, 100), 4, -1, 0);
+createObject(new THREE.IcosahedronGeometry(1.1), 0, 2.5, -2);
 
 const upload = document.getElementById('textureUpload');
 const defaultButton = document.getElementById('defaultButton');
@@ -89,7 +89,7 @@ upload.addEventListener('change', function (event) {
 });
 
 defaultButton.addEventListener('click', function () {
-  startWithTexture('/texture.JPG');
+  startWithTexture('./texture.JPG');
 });
 
 function animate() {
