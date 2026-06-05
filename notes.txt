@@ -1,0 +1,6 @@
+https://docs.google.com/document/d/15haQAF_CrDK76eX_rkcP0wP0LHIMHzZbkuA0DTaHdJk/edit?tab=t.0
+polygon guide in case i lose it 
+
+https://threejs.org/docs
+three js documentation page
+gotta find smth funny with ts

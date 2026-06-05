@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #b7e4a8;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#ui {
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  z-index: 10;
+  font-family: Arial, sans-serif;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 16px;
+  border-radius: 12px;
+  max-width: 330px;
+}
+
+h1 {
+  margin: 0 0 10px;
+}
+
+p {
+  margin: 0 0 12px;
+}
