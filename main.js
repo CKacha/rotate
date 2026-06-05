@@ -26,7 +26,7 @@ const light = new THREE.PointLight(0xffffff, 2);
 light.position.set(5, 5, 5);
 scene.add(light);
 
-const audio = new Audio('./o.mp3');
+const audio = new Audio('/o.mp3');
 audio.loop = true;
 
 const objects = [];
@@ -89,7 +89,7 @@ upload.addEventListener('change', function (event) {
 });
 
 defaultButton.addEventListener('click', function () {
-  startWithTexture('./texture.JPG');
+  startWithTexture('/texture.JPG');
 });
 
 function animate() {
